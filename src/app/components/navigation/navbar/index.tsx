@@ -6,7 +6,7 @@ import Button from "./Button";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="sticky top-0 h-20 w-full bg-blue-500">
+      <div className="sticky top-0 h-20 w-full bg-slate-500">
         <div className="container mx-auto h-full px-4">
           <div className="flex h-full items-center justify-between">
             <Logo />
